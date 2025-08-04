@@ -1,6 +1,6 @@
 #!/bin/bash
 npm init -y
-npm install --save-dev typescript@5.8.3 eslint prettier @typescript-eslint/parser@latest @typescript-eslint/eslint-plugin@latest eslint-config-google eslint-config-prettier eslint-plugin-prettier
+npm install --save-dev typescript@5.8.3 eslint prettier @typescript-eslint/parser@latest @tsconfig/recommended @typescript-eslint/eslint-plugin@latest eslint-config-google eslint-config-prettier eslint-plugin-prettier
 echo "{
   \"extends\": \"@tsconfig/recommended/tsconfig.json\",
   \"compilerOptions\": {
